@@ -1,244 +1,244 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-    font-style: normal;
-    font-size: 13px;
-    display: inline-block;
-  }
-  
-  .img-background {
-    width: 100%;
-    background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
-    background-repeat: no-repeat;
-    background-size: 1350px 1225px;
-    background-position: 50% 100%;
-    position: relative;
-    height: 500px;
-  }
-  
-  body .nav-content span {
-    color: white;
-    margin: 0 auto;
-  }
-  
-  .field-icons ul li span i {
-    font-size: 18.5px;
-  }
-  
-  .field-search-bar ul li span i {
-    font-size: 10px;
-  }
-  
-  .icons-list .field-icons ul li a span {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .nav-content .nav-bar {
-    margin-top: 0;
-    width: 900px;
-    margin-left: 200px;
-    background-color: rgba(0, 0, 0, 0);
-    color: #fff;
-    border: 0 none;
-    padding: 60px 0;
-    background-image: none;
-    border-radius: 12px;
-    outline: none;
-    display: flex;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-  .nav-bar .icons {
-    border-radius: 4px;
-    height: 40px;
-    width: 900px;
-    margin: 0 auto;
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
-    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
-    z-index: 5;
-    margin-top: 0;
-  }
-  
-  .nav-bar fieldset {
-    float: left;
-    height: 40px;
-  }
-  
-  .icons-list .field-icons {
-    width: 95px;
-    border: none;
-    border-right: 1px solid #a8a8a8;
-  }
-  
-  .field-search-bar .field-search-icons {
-    width: 100px;
-    float: right;
-    margin-top: 10px;
-    align-items: center;
-    border: none;
-    border-right: 1px solid #a8a8a8;
-  }
-  
-  .iphone-img > li {
-    padding: 0;
-    list-style: none;
-  }
-  
-  .footer-copyright li {
-    list-style-type: none;
-    float: left;
-  }
-  
-  .icons ul li {
-    list-style-type: none;
-  }
-  
-  footer a {
-    color: rgb(0, 136, 204);
-    cursor: pointer;
-  }
-  
-  .content a {
-    text-decoration: none;
-  }
-  
-  .footer-copyright li > a {
-    text-decoration: none;
-  }
-  
-  .icons ul li a {
-    text-decoration: none;
-    margin: auto;
-    position: relative;
-    top: 9px;
-  }
-  
-  .field-search-icons .search-wrapper {
-    position: absolute;
-  }
-  
-  .field-search-icons .search-wrapper .fa {
-    position: absolute;
-    top: 5px;
-    left: 6px;
-    bottom: 6px;
-  }
-  
-  .field-search-bar .search-wrapper .search-input {
-    border-radius: 10px;
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
-    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
-    width: 80px;
-  }
-  
-  .content {
-    display: flex;
-    text-align: center;
-    font-weight: 100;
-  }
-  
-  .header-primary {
-    font-size: 3rem;
-    font-weight: 100;
-  }
-  
-  .header-secondary {
-    font-size: 1.4rem;
-    line-height: 1.6;
-    padding-top: 20px;
-  }
-  
-  .content-container {
-    min-width: 500px;
-    margin: auto;
-    position: relative;
-    top: 5px;
-  }
-  
-  .content .image-background i {
-    font-size: 24px;
-  }
-  
-  .footer ul li > a {
-    text-decoration: none;
-  }
-  
-  .footer .footer-links a {
-    text-decoration: none;
-  }
-  
-  footer .footer a:hover {
-    text-decoration: underline;
-  }
-  
-  footer .footer-copyright a:hover {
-    text-decoration: underline;
-  }
-  
-  .footer-copyright li > a:link {
-    margin-left: 8px;
-  }
-  
-  .footer ul li > a:link {
-    margin-left: 8px;
-  }
-  
-  .content .image-background a:hover {
-    text-decoration: underline;
-  }
-  
-  .iphone-images {
-    width: 337.25px;
-    height: 200px;
-  }
-  
-  .adverts {
-    max-width: 1363px;
-    margin: auto;
-  }
-  
-  .iphone-img {
-    display: flex;
-    min-width: 1268px;
-  }
-  
-  .image-background {
-    padding-top: 43px;
-    font-size: 1.2rem;
-  }
-  
-  footer {
-    line-height: 1.2;
-    color: #6e6e6e;
-    font-size: 10px;
-    width: 90%;
-    margin-top: 20px;
-    margin-left: 180px;
-    margin-bottom: 20px;
-  }
-  
-  .footer ul {
-    display: inline-block;
-  }
-  
-  .footer ul li {
-    list-style-type: none;
-    float: left;
-  }
-  
-  #footers .footer-list span {
-    margin-left: 30px;
-  }
-  
-  .footer-copyright {
-    display: flex;
-  }
-  
-  .footer-copyright ul {
-    display: flex;
-  }
+body {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.img-background {
+  width: 100%;
+  background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+  background-repeat: no-repeat;
+  background-size: 1350px 1225px;
+  background-position: 50% 100%;
+  position: relative;
+  height: 500px;
+}
+
+body .nav-content span {
+  color: white;
+  margin: 0 auto;
+}
+
+.icons-list .field-icons ul li span i {
+  font-size: 18.5px;
+}
+
+.field-search-bar .field-search-icons .search-wrapper i {
+  font-size: 9px;
+}
+
+.icons-list .field-icons ul li a span {
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-content .nav-bar {
+  margin-top: 0;
+  width: 900px;
+  margin-left: 200px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  border: 0 none;
+  padding: 60px 0;
+  background-image: none;
+  border-radius: 12px;
+  outline: none;
+  display: flex;
+}
+
+.nav-bar .icons {
+  border-radius: 4px;
+  height: 40px;
+  width: 900px;
+  margin: 0 auto;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  z-index: 5;
+  margin-top: 0;
+}
+
+.nav-bar fieldset {
+  float: left;
+  height: 40px;
+}
+
+.icons-list .field-icons {
+  width: 95px;
+  border: none;
+  border-right: 1px solid #a8a8a8;
+}
+
+.field-search-bar .field-search-icons {
+  width: 100px;
+  float: right;
+  margin-top: 10px;
+  align-items: center;
+  border: none;
+  border-right: 1px solid #a8a8a8;
+}
+
+.iphone-img > li {
+  padding: 0;
+  list-style: none;
+}
+
+.footer-copyright li {
+  list-style-type: none;
+  float: left;
+}
+
+.icons ul li {
+  list-style-type: none;
+}
+
+footer a {
+  color: rgb(0, 136, 204);
+  cursor: pointer;
+}
+
+.content a {
+  text-decoration: none;
+}
+
+.footer-copyright li > a {
+  text-decoration: none;
+}
+
+.icons ul li a {
+  text-decoration: none;
+  margin: auto;
+  position: relative;
+  top: 9px;
+}
+
+.field-search-icons .search-wrapper {
+  position: absolute;
+}
+
+.field-search-icons .search-wrapper .fa {
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  bottom: 6px;
+}
+
+.field-search-bar .search-wrapper .search-input {
+  border-radius: 10px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  width: 80px;
+}
+
+.content {
+  display: flex;
+  text-align: center;
+  font-weight: 100;
+}
+
+.header-primary {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.header-secondary {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  padding-top: 20px;
+}
+
+.content-container {
+  min-width: 500px;
+  margin: auto;
+  position: relative;
+  top: 5px;
+}
+
+.content .image-background i {
+  font-size: 24px;
+}
+
+.footer ul li > a {
+  text-decoration: none;
+}
+
+.footer .footer-links a {
+  text-decoration: none;
+}
+
+footer .footer a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-copyright a:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright li > a:link {
+  margin-left: 8px;
+}
+
+.footer ul li > a:link {
+  margin-left: 8px;
+}
+
+.content .image-background a:hover {
+  text-decoration: underline;
+}
+
+.iphone-images {
+  width: 337.25px;
+  height: 200px;
+}
+
+.adverts {
+  max-width: 1363px;
+  margin: auto;
+}
+
+.iphone-img {
+  display: flex;
+  min-width: 1268px;
+}
+
+.image-background {
+  padding-top: 43px;
+  font-size: 1.2rem;
+}
+
+footer {
+  line-height: 1.2;
+  color: #6e6e6e;
+  font-size: 10px;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 180px;
+  margin-bottom: 20px;
+}
+
+.footer ul {
+  display: inline-block;
+}
+
+.footer ul li {
+  list-style-type: none;
+  float: left;
+}
+
+#footers .footer-list span {
+  margin-left: 30px;
+}
+
+.footer-copyright {
+  display: flex;
+}
+
+.footer-copyright ul {
+  display: flex;
+}
