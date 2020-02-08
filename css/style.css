@@ -26,6 +26,10 @@ body .nav-content span {
   margin: 0 auto;
 }
 
+.content .image-background i {
+  font-size: 24px;
+}
+
 .icons-list .field-icons ul li span i {
   font-size: 18.5px;
 }
@@ -158,10 +162,6 @@ footer a {
   margin: auto;
   position: relative;
   top: 5px;
-}
-
-.content .image-background i {
-  font-size: 24px;
 }
 
 .footer ul li > a {
