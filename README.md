@@ -1,4 +1,4 @@
-# apple-clone
+# background-and-gradients
 
 # What it does
 It is a clone of the old apple homepage.
@@ -10,7 +10,7 @@ It is a clone of the old apple homepage.
 
 ## Live Demo
 
-[Live Demo](https://frosty-jones-7e9c09.netlify.com/)
+[Live Demo](https://raw.githack.com/Buyaki01/background-and-gradients/featured-branch/index.html)
 
 ## Getting Started
 
@@ -26,7 +26,7 @@ Linkedin: https://www.linkedin.com/in/ritta-buyaki-b12904128/
 
 ## 🤝 Contributing
 
-Feel free to check the [issues page](https://github.com/Buyaki01/apple-clone/issues).
+Feel free to check the [issues page](https://github.com/Buyaki01/background-and-gradients/issues).
 
 ## Attributions and Credit
 Special thanks to Microverse!
