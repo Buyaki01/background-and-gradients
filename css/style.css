@@ -11,8 +11,8 @@ body {
   display: inline-block;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
 }
 
 .img-background {
@@ -167,7 +167,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-footer ul li > a:link{
+footer ul li > a:link {
   margin-left: 8px;
 }
 
