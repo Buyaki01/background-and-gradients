@@ -11,6 +11,10 @@ body {
   display: inline-block;
 }
 
+a{
+  text-decoration:none;
+}
+
 .img-background {
   width: 100%;
   background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
@@ -107,16 +111,11 @@ footer a {
   cursor: pointer;
 }
 
-.content a {
-  text-decoration: none;
-}
-
 .footer-copyright li > a {
   text-decoration: none;
 }
 
 .icons ul li a {
-  text-decoration: none;
   margin: auto;
   position: relative;
   top: 9px;
@@ -164,27 +163,11 @@ footer a {
   top: 5px;
 }
 
-.footer ul li > a {
-  text-decoration: none;
-}
-
-.footer .footer-links a {
-  text-decoration: none;
-}
-
-footer .footer a:hover {
+footer a:hover {
   text-decoration: underline;
 }
 
-footer .footer-copyright a:hover {
-  text-decoration: underline;
-}
-
-.footer-copyright li > a:link {
-  margin-left: 8px;
-}
-
-.footer ul li > a:link {
+footer ul li > a:link{
   margin-left: 8px;
 }
 
@@ -216,7 +199,7 @@ footer {
   line-height: 1.2;
   color: #6e6e6e;
   font-size: 10px;
-  width: 90%;
+  width: 80%;
   margin-top: 20px;
   margin-left: 180px;
   margin-bottom: 20px;
@@ -236,9 +219,5 @@ footer {
 }
 
 .footer-copyright {
-  display: flex;
-}
-
-.footer-copyright ul {
   display: flex;
 }
