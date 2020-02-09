@@ -115,6 +115,10 @@ footer a {
   text-decoration: none;
 }
 
+footer a:hover {
+  text-decoration: underline;
+}
+
 .icons ul li a {
   margin: auto;
   position: relative;
@@ -161,10 +165,6 @@ footer a {
   margin: auto;
   position: relative;
   top: 5px;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
 
 footer ul li > a:link {
