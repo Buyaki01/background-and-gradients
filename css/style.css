@@ -7,15 +7,16 @@
 body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   font-style: normal;
-  font-size: 13px;
+  font-size: 15px;
   display: inline-block;
+  width: 100%;
 }
 
 a {
   text-decoration: none;
 }
 
-.img-background {
+.nav-content {
   width: 100%;
   background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
   background-repeat: no-repeat;
@@ -23,11 +24,14 @@ a {
   background-position: 50% 100%;
   position: relative;
   height: 500px;
+  display: inline-block;
+  padding: 70px;
+  text-align: center;
 }
 
 body .nav-content span {
   color: white;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .content .image-background i {
@@ -35,59 +39,41 @@ body .nav-content span {
 }
 
 .icons-list .field-icons ul li span i {
-  font-size: 18.5px;
+  font-size: 23px;
+}
+
+.field-search-bar{
+  text-align: center;
 }
 
 .field-search-bar .field-search-icons .search-wrapper i {
   font-size: 9px;
 }
 
-.icons-list .field-icons ul li a span {
-  padding: 20px;
-  text-align: center;
-}
-
-.nav-content .nav-bar {
-  margin-top: 0;
-  width: 900px;
-  margin-left: 200px;
-  background-color: rgba(0, 0, 0, 0);
-  color: #fff;
-  border: 0 none;
-  padding: 60px 0;
-  background-image: none;
-  border-radius: 12px;
-  outline: none;
-  display: flex;
-}
-
-.nav-bar .icons {
+ .nav-content .nav-bar {
   border-radius: 4px;
   height: 40px;
   width: 900px;
-  margin: 0 auto;
   background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
   z-index: 5;
-  margin-top: 0;
+  display: inline-block;
+  outline: none;
 }
 
-.nav-bar fieldset {
+.nav-content .nav-bar fieldset {
   float: left;
   height: 40px;
+  width: 100px;
+  text-align: center;
 }
 
 .icons-list .field-icons {
-  width: 95px;
   border: none;
   border-right: 1px solid #a8a8a8;
 }
 
 .field-search-bar .field-search-icons {
-  width: 100px;
-  float: right;
-  margin-top: 10px;
-  align-items: center;
   border: none;
   border-right: 1px solid #a8a8a8;
 }
@@ -102,7 +88,7 @@ body .nav-content span {
   float: left;
 }
 
-.icons ul li {
+.nav-bar ul li {
   list-style-type: none;
 }
 
@@ -119,32 +105,40 @@ footer a:hover {
   text-decoration: underline;
 }
 
-.icons ul li a {
+.nav-bar ul li a {
   margin: auto;
   position: relative;
-  top: 9px;
+  top: 8px;
 }
 
 .field-search-icons .search-wrapper {
-  position: absolute;
+  text-align: center;
+  position: relative;
+  top: 8px;
+  color: #fff;
+  border-radius: 13px;
+  border: 0 none;
 }
 
 .field-search-icons .search-wrapper .fa {
   position: absolute;
-  top: 5px;
-  left: 6px;
-  bottom: 6px;
+  top: 8px;
+  left: 30px;
 }
 
 .field-search-bar .search-wrapper .search-input {
-  border-radius: 10px;
+  border-radius: 13px;
+  border: 0 none;
   background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
-  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
-  width: 80px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 2px 1px;
+  width: 50px;
+  height: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .content {
-  display: flex;
+  margin-top: 30px;
   text-align: center;
   font-weight: 100;
 }
@@ -164,7 +158,6 @@ footer a:hover {
   min-width: 500px;
   margin: auto;
   position: relative;
-  top: 5px;
 }
 
 footer ul li > a:link {
