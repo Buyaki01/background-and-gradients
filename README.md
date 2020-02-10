@@ -10,7 +10,7 @@ It is a clone of the old apple homepage.
 
 ## Live Demo
 
-[Live Demo](https://raw.githack.com/Buyaki01/background-and-gradients/featured-branch/index.html)
+[Live Demo](https://admiring-kalam-42d8ae.netlify.com/)
 
 ## Getting Started
 
