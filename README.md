@@ -1,1 +1,42 @@
 # background-and-gradients
+
+# What it does
+It is a clone of the old apple homepage.
+
+## Built With
+- HTML
+- CSS
+#### and deployed to Github
+
+## Live Demo
+
+[Live Demo](https://raw.githack.com/Buyaki01/background-and-gradients/featured-branch/index.html)
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+- Clone the project unto your local machine
+- `cd` into the project directory
+- Open up index.html in your browser to view the project
+
+## Author
+Github: @Buyaki01
+Twitter: @BuyakiRitta
+Linkedin: https://www.linkedin.com/in/ritta-buyaki-b12904128/
+
+## 🤝 Contributing
+
+Feel free to check the [issues page](https://github.com/Buyaki01/background-and-gradients/issues).
+
+## Attributions and Credit
+Special thanks to Microverse!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is licensed by Microverse.
+
+### Enjoy!
