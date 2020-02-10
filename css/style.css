@@ -42,15 +42,15 @@ body .nav-content span {
   font-size: 23px;
 }
 
-.field-search-bar{
+.field-search-bar {
   text-align: center;
 }
 
 .field-search-bar .field-search-icons .search-wrapper i {
-  font-size: 9px;
+  font-size: 8px;
 }
 
- .nav-content .nav-bar {
+.nav-content .nav-bar {
   border-radius: 4px;
   height: 40px;
   width: 900px;
