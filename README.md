@@ -23,7 +23,7 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Ritta Sweta**
 
-- Github: [@Buyaki01]((https://github.com/Buyaki01))
+- Github: [@Buyaki01](https://github.com/Buyaki01)
 - Twitter: [@BuyakiRitta](https://twitter.com/BuyakiRitta)
 - Linkedin: [Ritta Sweta](https://www.linkedin.com/in/ritta-sweta/)
 
